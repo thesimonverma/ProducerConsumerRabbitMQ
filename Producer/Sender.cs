@@ -20,7 +20,7 @@ namespace Producer
 				channel.BasicPublish("", "BasicTest", null, body);
 				Console.WriteLine("Sent message {0}...", message);
 			}
-			Console.WriteLine("Press [enter] t exit the Sender App...");
+			Console.WriteLine("Press [enter] to exit the Sender App...");
 			Console.ReadKey();
 		}
 	}

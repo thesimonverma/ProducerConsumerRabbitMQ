@@ -23,7 +23,7 @@ namespace Consumer
 					Console.WriteLine("Received message {0}...", message);
 				};
 
-				channel.BasicConsume("BasicTest", true, consumer);
+				channel.BasicConsume("BasicTest ", true, consumer);
 			}
 
 			Console.WriteLine("Press [enter] to exit the Consumer...");
